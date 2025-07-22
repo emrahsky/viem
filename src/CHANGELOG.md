@@ -1,5 +1,11 @@
 # viem
 
+## 2.33.1
+
+### Patch Changes
+
+- [#3813](https://github.com/wevm/viem/pull/3813) [`953efbfcc1185dc36abb4ac7a02894a107e6d33b`](https://github.com/wevm/viem/commit/953efbfcc1185dc36abb4ac7a02894a107e6d33b) Thanks [@emrahsky](https://github.com/emrahsky)! - Added Areum chain.
+
 ## 2.33.0
 
 ### Minor Changes
