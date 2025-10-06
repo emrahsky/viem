@@ -1,5 +1,96 @@
 # viem
 
+## 2.37.13
+
+### Patch Changes
+
+- [#4003](https://github.com/wevm/viem/pull/4003) [`4bc1803f76fd1d935982a20f558926f4c8417014`](https://github.com/wevm/viem/commit/4bc1803f76fd1d935982a20f558926f4c8417014) Thanks [@yumartins](https://github.com/yumartins)! - Added Nitrograph Testnet chain.
+
+- [`4376837b38d2d2a2c9b44e4955fadbdb75c13a74`](https://github.com/wevm/viem/commit/4376837b38d2d2a2c9b44e4955fadbdb75c13a74) Thanks [@jxom](https://github.com/jxom)! - Simplify `account#signTransaction` interface.
+
+- [#3993](https://github.com/wevm/viem/pull/3993) [`a57ff1b6010a087d986320d3e5c50cca9dded93c`](https://github.com/wevm/viem/commit/a57ff1b6010a087d986320d3e5c50cca9dded93c) Thanks [@simbadMarino](https://github.com/simbadMarino)! - Added TRON Nile testnet chain
+
+- [#3996](https://github.com/wevm/viem/pull/3996) [`b8915c0be63c87e75225fb716631e913b0131d09`](https://github.com/wevm/viem/commit/b8915c0be63c87e75225fb716631e913b0131d09) Thanks [@sandyup](https://github.com/sandyup)! - Added Doma Testnet.
+
+- [#3990](https://github.com/wevm/viem/pull/3990) [`3d6ea4ea07323ac3f2bed91ab4c33ded5e23b6d1`](https://github.com/wevm/viem/commit/3d6ea4ea07323ac3f2bed91ab4c33ded5e23b6d1) Thanks [@aaronmgdr](https://github.com/aaronmgdr)! - Deprecated `celoAlfajores`.
+
+## 2.37.12
+
+### Patch Changes
+
+- [#3997](https://github.com/wevm/viem/pull/3997) [`0abb1d104e9464523ee83f1bc5136ebdae1dc2da`](https://github.com/wevm/viem/commit/0abb1d104e9464523ee83f1bc5136ebdae1dc2da) Thanks [@jxom](https://github.com/jxom)! - Tweaked `TransactionSerializable` & `TransactionRequest` types to be more symmetric.
+
+- [#3997](https://github.com/wevm/viem/pull/3997) [`0abb1d104e9464523ee83f1bc5136ebdae1dc2da`](https://github.com/wevm/viem/commit/0abb1d104e9464523ee83f1bc5136ebdae1dc2da) Thanks [@jxom](https://github.com/jxom)! - Added `action` parameter to formatters.
+
+## 2.37.11
+
+### Patch Changes
+
+- [`cce7f03ea0c05c6ec4840cd4221e58cf7d7b5ab1`](https://github.com/wevm/viem/commit/cce7f03ea0c05c6ec4840cd4221e58cf7d7b5ab1) Thanks [@jxom](https://github.com/jxom)! - Added support for async `serializer` on `signTransaction`.
+
+## 2.37.10
+
+### Patch Changes
+
+- [#3984](https://github.com/wevm/viem/pull/3984) [`18a482b048237df5a5af822f483ed55be90ba63f`](https://github.com/wevm/viem/commit/18a482b048237df5a5af822f483ed55be90ba63f) Thanks [@ihooni](https://github.com/ihooni)! - Added GIWA Sepolia chain.
+
+- [#3985](https://github.com/wevm/viem/pull/3985) [`1e791ad6aeebcd9a8dd4ad7e95f7d0690fa5949b`](https://github.com/wevm/viem/commit/1e791ad6aeebcd9a8dd4ad7e95f7d0690fa5949b) Thanks [@pazernykormoran](https://github.com/pazernykormoran)! - Added `blockTime` to Gnosis chains.
+
+## 2.37.9
+
+### Patch Changes
+
+- [#3980](https://github.com/wevm/viem/pull/3980) [`912509b2a03072b81af0f5f0f723dca1996e0635`](https://github.com/wevm/viem/commit/912509b2a03072b81af0f5f0f723dca1996e0635) Thanks [@xzilja](https://github.com/xzilja)! - Added multicall3 contracts to Plasma.
+
+- [#3981](https://github.com/wevm/viem/pull/3981) [`204cf427cd93cfa6e89bba84999a1e5019ba09df`](https://github.com/wevm/viem/commit/204cf427cd93cfa6e89bba84999a1e5019ba09df) Thanks [@maxandron](https://github.com/maxandron)! - Fixed handling of empty websocket messages from Erigon clients
+
+- [#3971](https://github.com/wevm/viem/pull/3971) [`ddd870e616a5af1fe78b94b27c793294b07f384e`](https://github.com/wevm/viem/commit/ddd870e616a5af1fe78b94b27c793294b07f384e) Thanks [@akitothemoon](https://github.com/akitothemoon)! - Added Jovay Mainnet & Testnet.
+
+- [#3974](https://github.com/wevm/viem/pull/3974) [`3ecda3b5aadee0d6ec63c8ed1248d05add39e07a`](https://github.com/wevm/viem/commit/3ecda3b5aadee0d6ec63c8ed1248d05add39e07a) Thanks [@xylophonez](https://github.com/xylophonez)! - Deprecated `weaveVMAlphanet` chain.
+  Added `loadAlphanet` chain.
+
+## 2.37.8
+
+### Patch Changes
+
+- [#3959](https://github.com/wevm/viem/pull/3959) [`20b10d7e1862583780f2b760289801308c2466f7`](https://github.com/wevm/viem/commit/20b10d7e1862583780f2b760289801308c2466f7) Thanks [@BigtoMantraDev](https://github.com/BigtoMantraDev)! - Added MANTRA EVM.
+
+- [`b0855ac06666199ac5a53f1aa6f776e30a380bf9`](https://github.com/wevm/viem/commit/b0855ac06666199ac5a53f1aa6f776e30a380bf9) Thanks [@jxom](https://github.com/jxom)! - Added `id` to JSON-RPC payload for WebSocket pings.
+
+- [#3964](https://github.com/wevm/viem/pull/3964) [`4683cbda6b98592f432879df1398a55317683f30`](https://github.com/wevm/viem/commit/4683cbda6b98592f432879df1398a55317683f30) Thanks [@hejtao](https://github.com/hejtao)! - Added 0g Mainnet and Testnet.
+
+- [#3962](https://github.com/wevm/viem/pull/3962) [`fdf3d59cd788f11dd92d22ec330d5ab246b66fa0`](https://github.com/wevm/viem/commit/fdf3d59cd788f11dd92d22ec330d5ab246b66fa0) Thanks [@Yutaro-Mori-eng](https://github.com/Yutaro-Mori-eng)! - Added Sova mainnet.
+
+## 2.37.7
+
+### Patch Changes
+
+- [`768a11055ad9a4ad47e1ba118545f2f0294fb19b`](https://github.com/wevm/viem/commit/768a11055ad9a4ad47e1ba118545f2f0294fb19b) Thanks [@jxom](https://github.com/jxom)! - Removed manual `authorizationList` gas.
+
+- [#3958](https://github.com/wevm/viem/pull/3958) [`52ac3ffb99922c5362058a570466e04c401a0630`](https://github.com/wevm/viem/commit/52ac3ffb99922c5362058a570466e04c401a0630) Thanks [@Yutaro-Mori-eng](https://github.com/Yutaro-Mori-eng)! - Added ENI Mainnet & Testnet.
+
+- [#3949](https://github.com/wevm/viem/pull/3949) [`dffbdc2762d776f90317b4e191e1631a4df8df3a`](https://github.com/wevm/viem/commit/dffbdc2762d776f90317b4e191e1631a4df8df3a) Thanks [@mmabbasi77](https://github.com/mmabbasi77)! - Added ICB Network chain.
+
+- [#3952](https://github.com/wevm/viem/pull/3952) [`9cf65b7fe846c0755bdd8bf3b0d820e0d7623986`](https://github.com/wevm/viem/commit/9cf65b7fe846c0755bdd8bf3b0d820e0d7623986) Thanks [@jeffgeudens](https://github.com/jeffgeudens)! - Added Botanix chain and modified Botanix Testnet
+
+## 2.37.6
+
+### Patch Changes
+
+- [#3942](https://github.com/wevm/viem/pull/3942) [`4f63629c8b8cb1715159676c15ccce94028afb74`](https://github.com/wevm/viem/commit/4f63629c8b8cb1715159676c15ccce94028afb74) Thanks [@UsmannK](https://github.com/UsmannK)! - Updated `plasmaTestnet` explorer.
+
+- [#3934](https://github.com/wevm/viem/pull/3934) [`7074189a2e636f5de322c46cf0437e9e0a0f8ddd`](https://github.com/wevm/viem/commit/7074189a2e636f5de322c46cf0437e9e0a0f8ddd) Thanks [@3commascapital](https://github.com/3commascapital)! - Added `blockTime` to pulsechain networks.
+
+## 2.37.5
+
+### Patch Changes
+
+- [#3935](https://github.com/wevm/viem/pull/3935) [`1a85c7a9bdd4a1319d6940b5b6f2d84c7c997611`](https://github.com/wevm/viem/commit/1a85c7a9bdd4a1319d6940b5b6f2d84c7c997611) Thanks [@sandyup](https://github.com/sandyup)! - Added Plasma Devnet.
+
+- [#3922](https://github.com/wevm/viem/pull/3922) [`06673e0a6ac6284f9d9897d8f84816978c2187dd`](https://github.com/wevm/viem/commit/06673e0a6ac6284f9d9897d8f84816978c2187dd) Thanks [@cruzdanilo](https://github.com/cruzdanilo)! - Added support for `blockOverrides` on `readContract`.
+
+- [#3922](https://github.com/wevm/viem/pull/3922) [`06673e0a6ac6284f9d9897d8f84816978c2187dd`](https://github.com/wevm/viem/commit/06673e0a6ac6284f9d9897d8f84816978c2187dd) Thanks [@cruzdanilo](https://github.com/cruzdanilo)! - Added support for `blockOverrides` on `multicall`.
+
 ## 2.37.4
 
 ### Patch Changes
